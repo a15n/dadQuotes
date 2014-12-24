@@ -11,7 +11,7 @@ app.get('/', function(request, response) {
 });
 
 app.get('*', function(request, response){
-	response.send('404: page unavailable');
+	response.send('404: There\'s nothing out there.');
 });
 
 app.listen(app.get('port'), function() {
